@@ -534,9 +534,6 @@
   .services__title {
     color: var(--header-color);
     margin-bottom: var(--gap-xs);
-    /* -webkit-box-flex: 0;
-            -ms-flex: 0 0 70%;
-                flex: 0 0 70%; */
     text-transform: uppercase;
     font-size: 42px;
     font-weight: 400;
@@ -544,6 +541,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    max-width: 333px;
   }
 
   .services__price {
